@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.kcocco.sproutloop"
-        version   = "0.1">
-    <name>mustache</name>
+        id        = "com.sproutloop.camera-test"
+        version   = "2.0.0">
+    <name>camer test</name>
 
     <description>
-        Mustache
+        camera testing
     </description>
 
-    <author href="http://sproutloop.com" email="support@sproutloop.com">
-        SproutLoop Team
+    <author href="http://phonegap.com" email="support@phonegap.com">
+        sproutloop
     </author>
 
     <feature name="http://api.phonegap.com/1.0/device" />
-
-    <preference name="phonegap-version" value="2.0.0" />
+	<feature name="http://api.phonegap.com/1.0/camera" />
+	<feature name="http://api.phonegap.com/1.0/file" />
+	
+    
+	<preference name="phonegap-version" value="2.1.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
 
-    <icon src="kevin_cocco_faceshot.jpg" />
+    <icon src="icon.png" />
     <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
     <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:density="hdpi" />
